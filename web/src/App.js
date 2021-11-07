@@ -6,6 +6,7 @@ import { useAuth0 } from '@auth0/auth0-react';
 import LoginButton from './components/LoginButton';
 import LogoutButton from './components/LogoutButton';
 import Profile from './components/Profile';
+import InputUrl from './components/InputUrl';
 import StripeContainer from './components/StripeContainer';
 import fotoProduto from './assets/jarlesfemea.png'
 
@@ -25,6 +26,18 @@ function App() {
       <LoginButton />
       <LogoutButton />
       <Profile />
+
+      <br/><br/><br/><br/><br/><br/>
+
+      Insira seu link aqui: <InputUrl />
+
+
+
+
+
+      <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+      <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+
       <div className="stripe">
         <h1> Produto </h1>
         {showItem ? 
