@@ -6,7 +6,7 @@ const Home = () => {
 
     return (
         <div>
-            <h1>Next.js + Firebase Auth</h1>
+            <h1>Login page test</h1>
             <div>
                 <pre>{JSON.stringify(user, null, 2)}</pre>
             </div>
