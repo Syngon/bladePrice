@@ -10,7 +10,8 @@ const Home = () => {
             <div>
                 <pre>{JSON.stringify(user, null, 2)}</pre>
             </div>
-            <div> {user != null ? <img src={user?.photoURL} height={300} width={300}/> : <span>Sem imagem</span>}
+            <div> 
+                { user != null ? <Image loader={() => user?.photoURL} src={user?.photoURL} height={300} width={300} layout="responsive"/> : <span>Sem imagem</span>}
                 <br />
                 <button onClick={login}>login Google</button> 
                 <br />

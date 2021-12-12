@@ -1,7 +1,7 @@
 /** @type {import('next').NextConfig} */
 module.exports = {
   reactStrictMode: true,
-  Images: {
-    domains: ['https://lh3.googleusercontent.com']
-  }
-}
+  images: {
+    domains: ["https://lh3.googleusercontent.com", "lh3.googleusercontent.com"],
+  },
+};
