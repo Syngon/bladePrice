@@ -11,7 +11,7 @@ const Home = () => {
                 <pre>{JSON.stringify(user, null, 2)}</pre>
             </div>
             <div> 
-                { user != null ? <Image loader={() => user?.photoURL} src={user?.photoURL} height={300} width={300} layout="responsive"/> : <span>Sem imagem</span>}
+                { user != null ? <Image loader={() => user?.photoURL} src={user?.photoURL} height={10000} width={10000} layout="responsive"/> : <span>Sem imagem</span>}
                 <br />
                 <button onClick={login}>login Google</button> 
                 <br />
@@ -20,5 +20,6 @@ const Home = () => {
         </div>
     )
 }
+
 
 export default Home;
